@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/title_bar_rl"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#FF72CAE1" >
+
+        <ImageView
+            android:id="@+id/title_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="7dip"
+            android:paddingLeft="10dip"
+            android:src="@drawable/iconfont_paimai" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/title_name"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"             
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="拍卖系统"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <EditText 
+            android:id="@+id/search_edit"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/auction_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/auction_search" />
+
+        
+        <ImageView
+            android:id="@+id/auction_more"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/auction_more" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入拍卖品名称"
+        
+       />
+
+    <EditText
+        android:id="@+id/item_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入拍卖品信息"
+        android:lines="5" />
+
+    <EditText
+        android:id="@+id/init_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="拍卖价" 
+        android:numeric="integer"/>
+
+    <EditText
+        android:id="@+id/fiexd_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="一口价" 
+        android:numeric="integer"/>
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:onClick="submit"
+            android:text="发布" />
+    </RelativeLayout>
+
+</LinearLayout>

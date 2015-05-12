@@ -1,0 +1,115 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=100520, tid=100876
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0-b147
+# Java VM: Java HotSpot(TM) Client VM (21.0-b17 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x024b9800):  JavaThread "Unknown thread" [_thread_in_vm, id=100876, stack(0x023f0000,0x02440000)]
+
+Stack: [0x023f0000,0x02440000],  sp=0x0243f064,  free space=316k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1630e1]
+V  [jvm.dll+0x15dcfb]
+V  [jvm.dll+0x18e37]
+V  [jvm.dll+0x1a6a8]
+V  [jvm.dll+0x2a42f]
+V  [jvm.dll+0x2b818]
+V  [jvm.dll+0x2bedb]
+V  [jvm.dll+0x2bf2a]
+V  [jvm.dll+0x2c07d]
+V  [jvm.dll+0x2c15a]
+V  [jvm.dll+0x2c3d7]
+V  [jvm.dll+0x73cb1]
+V  [jvm.dll+0x7406b]
+V  [jvm.dll+0x121a7c]
+V  [jvm.dll+0x14382a]
+V  [jvm.dll+0xa2940]
+C  [javaw.exe+0x1359]
+C  [javaw.exe+0x1dc9]
+C  [javaw.exe+0xa0cb]
+C  [javaw.exe+0xa155]
+C  [kernel32.dll+0x1339a]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x39ef2]  RtlInitializeExceptionChain+0x63
+C  [ntdll.dll+0x39ec5]  RtlInitializeExceptionChain+0x36
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x024b9800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=100876, stack(0x023f0000,0x02440000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00b00000 - 0x00b2f000 	C:\Program Files (x86)\Java\jdk1.7.0\bin\javaw.exe
+0x77010000 - 0x77190000 	C:\Windows\SysWOW64\ntdll.dll
+0x75f70000 - 0x76080000 	C:\Windows\syswow64\kernel32.dll
+0x766d0000 - 0x76716000 	C:\Windows\syswow64\KERNELBASE.dll
+0x76510000 - 0x765b0000 	C:\Windows\syswow64\ADVAPI32.dll
+0x75c20000 - 0x75ccc000 	C:\Windows\syswow64\msvcrt.dll
+0x764f0000 - 0x76509000 	C:\Windows\SysWOW64\sechost.dll
+0x765e0000 - 0x766d0000 	C:\Windows\syswow64\RPCRT4.dll
+0x746f0000 - 0x74750000 	C:\Windows\syswow64\SspiCli.dll
+0x746e0000 - 0x746ec000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x759c0000 - 0x75ac0000 	C:\Windows\syswow64\USER32.dll
+0x763d0000 - 0x76460000 	C:\Windows\syswow64\GDI32.dll
+0x76fe0000 - 0x76fea000 	C:\Windows\syswow64\LPK.dll
+0x76140000 - 0x761dd000 	C:\Windows\syswow64\USP10.dll
+0x72790000 - 0x7292e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+0x75400000 - 0x75457000 	C:\Windows\syswow64\SHLWAPI.dll
+0x75cd0000 - 0x75d30000 	C:\Windows\system32\IMM32.DLL
+0x758f0000 - 0x759bc000 	C:\Windows\syswow64\MSCTF.dll
+0x72260000 - 0x7231e000 	C:\Program Files (x86)\Java\jdk1.7.0\jre\bin\msvcr100.dll
+0x69ab0000 - 0x69dd1000 	C:\Program Files (x86)\Java\jdk1.7.0\jre\bin\client\jvm.dll
+0x74320000 - 0x74327000 	C:\Windows\system32\WSOCK32.dll
+0x761e0000 - 0x76215000 	C:\Windows\syswow64\WS2_32.dll
+0x763c0000 - 0x763c6000 	C:\Windows\syswow64\NSI.dll
+0x72030000 - 0x72062000 	C:\Windows\system32\WINMM.dll
+0x76080000 - 0x76085000 	C:\Windows\syswow64\PSAPI.DLL
+0x74310000 - 0x7431c000 	C:\Program Files (x86)\Java\jdk1.7.0\jre\bin\verify.dll
+0x742f0000 - 0x74310000 	C:\Program Files (x86)\Java\jdk1.7.0\jre\bin\java.dll
+0x742d0000 - 0x742e3000 	C:\Program Files (x86)\Java\jdk1.7.0\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:E:\softword\android-sdks\platforms\android-19\android.jar 
+java_command: com.auction.test.main
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.7.0
+CLASSPATH=.;C:\Program Files (x86)\Java\jdk1.7.0\lib;C:\Program Files (x86)\Java\jdk1.7.0\lib\tools.jar
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Java\jdk1.7.0\bin;C:\Program Files (x86)\Java\jdk1.7.0\jre\bin;E:\softword\android-sdks\platform-tools;E:\softword\android-sdks\tools;D:\Program Files (x86)\ant\apache-ant-1.9.4/bin;D:\Program Files (x86)\ant\apache-ant-1.9.4/lib
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 21 Model 19 Stepping 1, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 21 model 19 stepping 1, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, mmxext, 3dnowpref, lzcnt, sse4a
+
+Memory: 4k page, physical 3643640k(855172k free), swap 7285428k(2963852k free)
+
+vm_info: Java HotSpot(TM) Client VM (21.0-b17) for windows-x86 JRE (1.7.0-b147), built on Jun 27 2011 02:25:52 by "java_re" with unknown MS VC++:1600
+
+time: Thu Jan 22 19:44:12 2015
+elapsed time: 0 seconds
+

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/ly_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/normal_linear_selector_center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="hahahah"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/winner_phone"
+            android:layout_width="22dip"
+            android:layout_height="22dip"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/bg_imageview_manager_big_winner_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/bid_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/record_bt" />
+
+        <Button
+            android:id="@+id/undercarriage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下架" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/finish_icon"
+        android:visibility="gone"
+        android:layout_marginLeft="50dip"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_imageview_manager_bid_finish_icon" />
+
+</RelativeLayout>

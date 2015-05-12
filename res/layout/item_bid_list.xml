@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="#ffffff">
+   <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:text="用户名"
+        android:id="@+id/user_name"/>
+    <TextView 
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"   
+        android:textSize="15sp"
+        android:text="竞拍价格"
+        android:id="@+id/bid_price"/>
+    <ListView
+        android:id="@+id/itemBidList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

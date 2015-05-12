@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="descr_image">Image</string>
+    <string name="login_label_username">帐号</string>  
+    <string name="login_label_password">密码</string>  
+    <string name="login_label_signin">登 录</string>  
+    <string name="login_status_logging_in">登录中...</string>  
+    <string name="login_username_hint">Email或手机号</string>  
+    <string name="login_register_link">没有帐号？ <a href="#" mce_href="#">注册</a></string>  
+    <string name="hello">Hello World, Login!</string>
+	<string name="app_name">拍卖系统</string>
+	<string name="user_name">用户账户：</string>
+	<string name="user_pass">用户口令：</string>
+	
+	<string name="login">登录</string>
+	<string name="register">注册</string>
+	<string name="add">添加</string>
+	<string name="bid">竞价</string>
+	<string name="cancel">取消</string>
+	<string name="welcome">欢迎使用电子拍卖系统</string>
+	<string name="view_succ">浏览竞得物品</string>
+	<string name="view_bid">您参与竞标的物品</string>
+	<string name="view_fail">浏览流拍物品</string>
+	<string name="manage_item">您当前的拍卖物品</string>
+	<string name="manage_kind">系统的所有物品种类</string>
+	<string name="choose_kind">请选择一个物品种类</string>
+	<string name="item_list">当前种类的物品</string>
+	<string name="item_name">物品名：</string>
+	<string name="item_kind">物品种类：</string>
+	<string name="item_desc">物品描述：</string>
+	<string name="win_price">赢取价格：</string>
+	<string name="fiexd_price">一口价</string>
+	<string name="max_price">最高竞价：</string>
+	<string name="remark">物品备注：</string>
+	<string name="init_price">起拍价格：</string>
+	<string name="avail_time">有效时间：</string>
+	<string name="end_time">结束时间：</string>
+	<string name="bid_price">竞标价格：</string>
+	<string name="bid_time">竞标时间：</string>
+	<string name="bid_user">竞标人：</string>
+	<string name="add_kind_title">添加物品种类</string>
+	<string name="add_item_title">添加拍卖物品</string>
+	<string name="kind_name">种类名称：</string>
+	<string name="kind_desc">种类描述：</string>
+	<string name="item_detail_title">物品详情</string>
+	<string name="you_bid">您的竞价：</string>
+	
+	<string name="reg_mobile">请输入您的手机</string>
+	<string name="reg_getCode">获取验证码</string>
+	<string name="reg_code">请输入手机收到的验证码</string>
+	<string name="reg_subCode">提交验证码</string>
+	<string name="reg_Pass">输入登陆密码</string>
+	<string name="reg_setPass"> 设置密码</string>
+	
+    <string name="hint_content">s后重新发送</string>
+   
+    <string name="information_head_img">头像</string>
+    <string name="information_user_name">用户名</string>
+    <string name="information_user_mobile">手机</string>
+    <string name="information_user_address">用户地址</string>
+    
+    <string name="auction_more">分类</string>
+    <string name="auction_search">搜索</string>
+    
+    <string name="more_computer">电脑</string>
+    <string name="more_mobile">手机</string>
+    <string name="more_life">生活</string>
+    <string name="more_interest">兴趣</string>
+    <string name="more_costume">服饰</string>
+    
+    <string name="menu_salesroom">拍卖场</string>
+    <string name="menu_manager">拍卖品</string>
+    <string name="menu_message">标&#160;&#160;&#160;&#160;记</string>
+    <string name="menu_bid">竞&#160;&#160;&#160;&#160;标</string>
+</resources>

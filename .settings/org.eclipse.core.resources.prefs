@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/auction/client/Main.java=GBK
+encoding//src/com/auction/client/util/JsonUtil.java=UTF-8
+encoding//src/com/auction/client/util/LightTimer.java=UTF-8
+encoding//src/com/auction/config/ErrorCode.java=UTF-8
+encoding//src/com/auction/map/LocationBaiduMapActivity.java=UTF-8

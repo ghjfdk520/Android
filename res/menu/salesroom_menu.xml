@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.wechatsample.MainActivity" >
+    <item 
+        android:id="@+id/auction_search"  
+        android:icon="@drawable/auction_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/auction_search"/>
+    <item 
+        android:id="@+id/auction_more"
+        android:actionProviderClass="com.auction.common.MoreActionProvider"
+        android:icon="@drawable/auction_more"
+        android:showAsAction="ifRoom"
+        android:title="@string/auction_more"
+        />
+    
+</menu>

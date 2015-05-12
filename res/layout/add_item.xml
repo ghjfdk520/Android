@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:clipChildren="false"
+        android:gravity="center_horizontal"
+        android:layerType="software"
+        android:orientation="horizontal" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/item_img"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="20dp"
+            android:background="#a9b7b7"
+            android:clipChildren="false" />
+    </LinearLayout>
+
+    <LinearLayout
+         
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="拍卖时间"/>
+
+        <Spinner
+            android:id="@+id/time_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:entries="@array/availTime"/>
+
+        <TextView
+            android:id="@+id/classe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:text="物品种类"/>
+
+        <Spinner
+            android:id="@+id/class_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+             android:entries="@array/kind"/>
+           
+       
+    </LinearLayout>
+    <RelativeLayout 
+       android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/rl"
+        android:gravity="center_horizontal"
+        >
+         <Button
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:onClick="onbtclick"
+                android:id="@+id/btNext"      
+                android:text="下一步" />  
+    </RelativeLayout>
+</LinearLayout>
